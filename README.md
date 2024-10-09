@@ -118,7 +118,7 @@ console.log(medium, small, giant); // LOG: Great Pyrenees Pug Bull Mastiff
 
 Note that, this time, we've wrapped the variables we're declaring in `[]`
 instead, so the engine knows we're destructuring an `Array`. In this case, the
-order *does* matter: the engine assigns the first element to `medium`, the
+order _does_ matter: the engine assigns the first element to `medium`, the
 second to `small` and the third to `giant`.
 
 The cool part is we can pick the parts of the `Array` that we want to assign!
