@@ -34,11 +34,11 @@ console.log(moo, neigh, baa, oink, cluck);
 console.log(moo)
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
-const [bessie, dolly, babe, little] = farmAnimals.split(' ');
+const [bessie, , dolly, babe, little] = farmAnimals.split(' ');
 console.log(bessie, dolly, babe, little);
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
-const [blackAndWhite, black, pink] = farmAnimals.split(' ');
+const [blackAndWhite, black, pink, ,] = farmAnimals.split(' ');
 console.log(blackAndWhite, black, pink);
 
 // Arrays
@@ -48,11 +48,11 @@ const [red, orange, yellow, green, blue, indigo, violet] = colors;
 console.log(red, orange, yellow, green, blue, indigo, violet);
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
-const [r, o, y, g, b, v] = colors;
+const [r, o, y, g, b, ,v] = colors;
 console.log(r, o, y, g, b, v);
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
-const [, , , , , indg, ] = colors;
+const [, , , , , indg, ,] = colors;
 console.log(indg);
 
 // Objects
